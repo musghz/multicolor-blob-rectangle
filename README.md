@@ -2,12 +2,11 @@
 Trackng a multicolor marker by manipulating the detected bounding boxes for each color channel.
 
 
-/// @file colorCodeTrackingAlgoV02.cpp
+@file colorCodeTrackingAlgoV02.cpp
 
 
 
-/// @brief Blob tracking using 2-color-codes.
-
+@brief Blob tracking using 2-color-codes.
 
 
 Adapted from blobTrackingV04.cpp. Inspired by Khan (2015) but different in the sense that instead of dilating and performing logical operations on the entire thresholded image, this is done on bounding boxes represented by rect objects.
@@ -40,4 +39,4 @@ http://docs.opencv.org/3.1.0/d0/d49/tutorial_moments.html#gsc.tab=0
 
 
 
-/// Created 27 May 2016 (V02)
+Created 27 May 2016 (V02)
