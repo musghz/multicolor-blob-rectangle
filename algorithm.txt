@@ -1,7 +1,7 @@
 Get thresholded image for the each color channel
 Open thresholded images if desired (erode then dilate)
 For every thresholded image, obtain set of bounding rectangles
-For each set of bounding rectangle, dilate the bounding rectangles
+For each set of bounding rectangles, dilate the bounding rectangle in the set
 Dilation of a rectangle is defined as increasing the width and height of a rectangle object
 for each thresholded image in a given set
   if (rect1 overlaps with rect2)
